@@ -1,0 +1,51 @@
+<app-als-navbartutor></app-als-navbartutor>
+<br>
+<form>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <h5 class="text-muted font-weight-light">Modulo 1</h5>
+      <hr>
+      <ul class="list-group">
+          <li class="list-group-item disabled d-flex justify-content-between align-items-center">Bienvenida al Nivel <span class="badge badge-secondary">Inhabilitado</span></li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">Introducción al modulo </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">Silabas </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">Practica 1 </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">Abecedario </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">Practica 2</li>
+        </ul>
+    </div>
+    <div class="col-md-8">
+      <form>
+          <div class="form-row">
+              <div class="form-group col-md-12">
+                <label for="inputEmail4">Titulo</label>
+                <input type="email" class="form-control" id="inputEmail4" value="Bienvenida al Nivel">
+              </div>
+          </div>
+          <div class="form-row">
+              <div class="form-group col-md-12">
+                  <label for="exampleFormControlTextarea1">Descripcion</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1">Bienvenidos al primer modulo del nivel básico en el aprendizaje de la lengua señas.
+                      En esta primera entrega, se van a ver temas muy básicos como las vocales y masyuculas y algunas recomendaciones 
+                      de como mejorar en el habla.</textarea>
+                </div>
+          </div>
+          <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">Adjuntar multimedia</label>
+                <small id="emailHelp" class="form-text text-muted">Se puede subir imagenes o videos</small>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+              </div>
+              <div class="form-group col-md-6 custom-switch">
+                  <input type="checkbox" class="custom-control-input" id="customSwitch">
+                  <label class="custom-control-label" for="customSwitch">Inhabilitar Actividad</label>
+              </div>
+          </div>
+      </form>
+        <br>
+        <button type="button" class="btn btn-outline-info">Guardar Cambios</button>
+    </div>
+  </div>
+</div>
+<app-als-footer></app-als-footer>

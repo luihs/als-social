@@ -1,0 +1,45 @@
+<app-als-navbartutor></app-als-navbartutor>
+<br>
+<div class="container">
+  <h5 class="text-muted font-weight-light">Promover estudiante</h5>
+  <hr class="mb-4">
+  <div class="row">
+      <form>
+        <div class="form-group">
+          <label for="formGroupExampleInput">Buscar estudiante</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+        </div>
+        <button type="button" class="btn btn-outline-info">Buscar</button>
+      </form>
+  </div>
+  <br>
+  <div class="media">
+      <img src="../../../assets/img/coneccion.jpeg" class="align-self-center mr-3" height="150px" width="130px">
+      <div class="media-body">
+        <h5 class="mt-0">@Luisr</h5>
+        <p>Luis Rivera</p>
+        <p class="font-weight-light">Nivel: <span class="badge badge-info">Intermedio</span></p>
+        <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#exampleModal">Promover de Nivel</button>
+      </div>
+    </div>
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Aviso</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Esta seguro de promover al estudiante: <span class="badge badge-warning">@LuisR</span></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-success" data-dismiss="modal">Aceptar</button>
+          <button type="button" class="btn btn-outline-danger">Cancelar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<app-als-footer></app-als-footer>

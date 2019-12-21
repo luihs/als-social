@@ -1,0 +1,77 @@
+<app-als-navbaradmin></app-als-navbaradmin>
+<br>
+<div class="container">
+    <h5 class="text-muted font-weight-light">Usuarios</h5>
+    <hr class="mb-4">
+    <div class="row">
+      <div class="col-md-6">
+          <form>
+              <div class="form-group">
+                <label for="formGroupExampleInput">Buscar usuario</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+              </div>
+              <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                  <div class="btn-group mr-2" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-outline-info">Buscar</button>
+                  </div>
+              </div>
+            </form>
+      </div>
+        
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-12">
+
+      </div>
+    </div>
+    <div class="media">
+        <img src="../../../assets/img/coneccion.jpeg" class="align-self-center mr-3" height="150px" width="130px">
+        <div class="media-body">
+          <h5 class="mt-0">@Luisr</h5>
+          <p>Luis Rivera</p>
+          <p class="font-weight-light">Estado: <span class="badge badge-success">Habilitado</span></p>
+          <p class="font-weight-light">Categoria: <span class="badge badge-warning">Estudiante</span></p>
+          <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#exampleModal">Inhabilitar Cuenta</button>
+        </div>
+      </div>
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Aviso</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Esta seguro de inhabilitar al usuario: <span class="badge badge-warning">@LuisR</span></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-success" data-dismiss="modal">Inhabilitar</button>
+            <button type="button" class="btn btn-outline-danger">Cancelar</button>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModal1" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Agrear Profesor</h5>
+            <button type="button" class="close" data-dismiss="modal1" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Esta seguro de inhabilitar al usuario: <span class="badge badge-warning">@LuisR</span></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-success" data-dismiss="modal1">Inhabilitar</button>
+            <button type="button" class="btn btn-outline-danger">Cancelar</button>
+          </div>
+      </div>
+    </div>
+  </div>
+<app-als-footer></app-als-footer>

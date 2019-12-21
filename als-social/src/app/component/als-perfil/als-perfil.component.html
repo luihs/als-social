@@ -1,0 +1,92 @@
+<app-als-navbarstudent></app-als-navbarstudent>
+<br>
+<div class="container">
+  <br>
+  <div class="media">
+      <img src="../../../assets/img/perfil.jpeg" class="align-self-center mr-3" width="180px" height="200px">
+      <div class="media-body">
+        <h5 class="mt-0 text-muted">Liz Marcelo <span class="badge badge-info">@LizM</span></h5>
+        <p>Es hora del cambio!!!</p>
+        <h6 class="text-muted font-weight-light"> Informacion: </h6>
+        <hr>
+        <p>Nivel: <span class="badge badge-info">Básico</span></p>
+        <p>Inicio de Actividades: 6-12-2019</p>
+      </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="media">
+                    <div class="media-body">
+                      <h5 class="mt-0">Publicar</h5>
+                      <div class="form-group">
+                          <textarea class="form-control" id="exampleFormControlTextarea1"  placeholder="Comparte acontecimientos" rows="3"></textarea>
+                      </div>
+                      <button type="button" class="btn btn-outline-primary">Compartir</button>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <br>
+          <h6 class="text-muted font-weight-light">Ultimas publicaciones</h6>
+          <hr>
+          <div class="card">
+              <div class="card-header">
+                @LizMarcelo - Historia
+              </div>
+              <div class="card-body">
+                <p class="card-text">Acabo de terminar el primer modulo, es dificil comprender todo 
+                  pero me agrada poder entender un poco más de la lengua.</p>
+                <a href="#" class="btn btn-outline-warning">Comentar</a>
+              </div>
+            </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Connecciones</h5>
+            <div class="media">
+                <img src="../../../assets/img/coneccion.jpeg" class="align-self-center mr-3" height="150px" width="130px">
+                <div class="media-body">
+                  <h5 class="mt-0">@Luisr</h5>
+                  <p>Luis Rivera</p>
+                  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                      <div class="btn-group mr-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-outline-info">Mensaje</button>
+                      </div>
+                      <div class="btn-group mr-2" role="group" aria-label="Second group">
+                        <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-outline-success" >Video</button>
+                      </div>
+                      <div class="btn-group" role="group" aria-label="Third group">
+                        <button type="button" class="btn btn-outline-primary">Perfil</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Videollamada Activa - @luisr</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid max-width" src="../../../assets/img/videollamada.jpeg">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Minimizar</button>
+            <button type="button" class="btn btn-outline-danger">Termminar Videollamada</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<app-als-footer></app-als-footer>

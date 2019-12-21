@@ -1,0 +1,81 @@
+<app-als-navbartutor></app-als-navbartutor>
+<br>
+<div class="container">
+  <h5 class="mt-0">Configuracion de la cuenta</h5>
+  <hr>
+  <div class="row">
+    <div class="col-md-6">
+      <h6 class="text-muted font-weight-light">Cambiar contraseña:</h6>
+      <br>
+      <form>
+          <div class="mb-3">
+              <label for="email">Antigua contraseña</label>
+              <input type="password" class="form-control" id="email" placeholder="">
+          </div>
+          <div class="mb-3">
+              <label for="email">Nueva contraseña</label>
+              <input type="password" class="form-control" id="email" placeholder="">
+          </div>
+          <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupFileAddon01">Subir</span>
+              </div>
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                <label class="custom-file-label" for="inputGroupFile01">Cambiar Foto</label>
+              </div>
+            </div>
+      </form>
+    </div>
+    <div class="col-md-6">
+        <h6 class="text-muted font-weight-light">Configuracion de Privacidad:</h6>
+        <br>
+        <div class="row">
+          <div class="col-md-6">
+              <div class="custom-control custom-switch">
+                  <input type="checkbox" class="custom-control-input" id="customSwitch">
+                  <label class="custom-control-label" for="customSwitch">Hacer perfil público</label>
+              </div>
+              <br>
+          </div>
+          <div class="col-md-6">
+              <div class="custom-control custom-switch">
+                  <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                  <label class="custom-control-label" for="customSwitch1">Hacer público mis reseñas</label>
+              </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <button type="button" class="btn btn-outline-success">Guardar Cambios</button>
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modificar Plan Actual</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Cambiar a Plan Básico
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  Eliminación de cuenta
+                </label>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-danger">Confirmar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<app-als-footer></app-als-footer>
